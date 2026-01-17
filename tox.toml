@@ -4,4 +4,4 @@ env_list = ["py313-pytest"]
 
 [env.py313-pytest]
 deps = ["-rrequirements.txt"]
-commands = [["python", "-m", "pytest", "-q"]]
+commands = [["python", "-m", "pytest"]]
