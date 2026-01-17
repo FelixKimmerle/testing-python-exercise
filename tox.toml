@@ -1,7 +1,7 @@
 # tox.toml
 requires = ["tox>=4.0"]
-env_list = ["py313-pytest"]
+env_list = ["testing"]
 
-[env.py313-pytest]
+[env.testing]
 deps = ["-rrequirements.txt"]
 commands = [["python", "-m", "pytest"]]
